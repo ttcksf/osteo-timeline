@@ -1,0 +1,200 @@
+/**
+* Plugin Name: Osteo Timeline for Elementor
+* Description: Osteo Timeline is a timeline addon for WPbakery Page Builder.
+* Plugin URI:  https://twinkledev.xyz/codecanyon/osteo-timeline/
+* Version:     1.0.0
+* Author:      TwinkleTheme
+* Author URI:  https://codecanyon.net/user/twinkletheme
+* License: GPLv2 or later
+* Text Domain: osteo-timeline
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+/*Reset*/
+
+a:focus,
+a:hover {
+    color: #23527c;
+    text-decoration: none!important;
+}
+
+.cmk-button {
+    display: inline-block;
+    background-color: #d30c5c;
+    color: #fff;
+    border-radius: 2px;
+    z-index: 5;
+}
+
+.cmk-button:hover {
+    border-radius: 2px;
+}
+
+.cmk-button:before {
+    border-radius: 2px;
+}
+
+.cmk-button:after {
+    border-radius: 2px;
+}
+
+.cmk-button-border {
+    border: 2px solid #d30c5c;
+    background-color: transparent;
+    color: #222;
+    display: inline-block;
+    border-radius: 2px;
+    z-index: 5;
+}
+
+.cmk-button-border:hover {
+    border-radius: 2px;
+}
+
+.cmk-button-border:before {
+    border-radius: 2px;
+}
+
+.cmk-button-border:after {
+    border-radius: 2px;
+}
+
+.before-icon i {
+    float: left;
+    padding: 5px 0;
+    padding-right: 10px;
+}
+
+.after-icon i {
+    float: right;
+    padding: 5px 0;
+    padding-left: 10px;
+}
+
+.cmk-button.xs,
+.cmk-button-border.xs {
+    font-size: 13px;
+    padding: 8px 20px;
+}
+
+.cmk-button.sm,
+.cmk-button-border.sm {
+    font-size: 15px;
+    padding: 8px 24px;
+}
+
+.cmk-button.md,
+.cmk-button-border.md {
+    font-size: 15px;
+    padding: 12px 32px;
+}
+
+.cmk-button.lg,
+.cmk-button-border.lg {
+    font-size: 18px;
+    padding: 15px 40px;
+}
+
+.cmk-button.xl,
+.cmk-button-border.xl {
+    font-size: 20px;
+    padding: 20px 50px;
+}
+
+.timeline__content img {
+    margin-bottom: 20px;
+}
+
+.timeline__content h2 {
+    margin-bottom: 20px;
+}
+
+.timeline__content p {
+    margin-bottom: 20px;
+}
+
+.timeline-nav-button {
+    outline: none!important;
+}
+
+.osteo-timeline-style-1,
+.osteo-timeline-style-2,
+.osteo-timeline-style-3,
+.osteo-timeline-style-4,
+.osteo-timeline-style-5,
+.osteo-timeline-style-6,
+.osteo-timeline-style-7,
+.osteo-timeline-style-1 .timeline-content h2,
+.osteo-timeline-style-2 .timeline-content h2,
+.osteo-timeline-style-3 .timeline-content h2,
+.osteo-timeline-style-4 .timeline-content h2,
+.osteo-timeline-style-5 .timeline-content h2,
+.osteo-timeline-style-6 .timeline-content h2,
+.osteo-timeline-style-7 .timeline-content h2,
+.osteo-timeline-style-8 .timeline__content h2,
+.osteo-timeline-style-1 .cmk-button,
+.osteo-timeline-style-2 .cmk-button,
+.osteo-timeline-style-3 .cmk-button,
+.osteo-timeline-style-4 .cmk-button,
+.osteo-timeline-style-5 .cmk-button,
+.osteo-timeline-style-6 .cmk-button,
+.osteo-timeline-style-7 .cmk-button,
+.osteo-timeline-style-8 .cmk-button,
+.osteo-timeline-style-1 .cmk-button:before,
+.osteo-timeline-style-2 .cmk-button:before,
+.osteo-timeline-style-3 .cmk-button:before,
+.osteo-timeline-style-4 .cmk-button:before,
+.osteo-timeline-style-5 .cmk-button:before,
+.osteo-timeline-style-7 .cmk-button:before,
+.osteo-timeline-style-8 .cmk-button:before,
+.osteo-timeline-style-1 .cmk-button:after,
+.osteo-timeline-style-2 .cmk-button:after,
+.osteo-timeline-style-3 .cmk-button:after,
+.osteo-timeline-style-4 .cmk-button:after,
+.osteo-timeline-style-5 .cmk-button:after,
+.osteo-timeline-style-6 .cmk-button:after,
+.osteo-timeline-style-7 .cmk-button:after,
+.osteo-timeline-style-8 .cmk-button:after,
+.timeline-nav-button,
+.timeline-nav-button:hover,
+.cmk-button:hover {
+    transition: .5s;
+}
